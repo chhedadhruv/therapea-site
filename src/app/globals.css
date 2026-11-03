@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Design tokens, mirrored from the app (Thera-Pea CLAUDE.md). */
+:root {
+  --background: #faf7f2;
+  --surface: #ffffff;
+  --primary: #6b8f71;
+  --primary-soft: #dce8dd;
+  --secondary: #9a8fbf;
+  --accent: #e8b4a0;
+  --text: #2f3a35;
+  --text-muted: #6b746f;
+  --border: #e7e2da;
+  --crisis: #b5503f;
+  --on-primary: #161a18;
+  --on-crisis: #ffffff;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #161a18;
+    --surface: #1f2421;
+    --primary: #8fb596;
+    --primary-soft: #2b3a2e;
+    --secondary: #b3a9d6;
+    --accent: #d9a08a;
+    --text: #e8e6e1;
+    --text-muted: #a3a9a5;
+    --border: #2e3430;
+    --crisis: #e07a68;
+    --on-primary: #161a18;
+    --on-crisis: #161a18;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-primary: var(--primary);
+  --color-primary-soft: var(--primary-soft);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-crisis: var(--crisis);
+  --color-on-primary: var(--on-primary);
+  --color-on-crisis: var(--on-crisis);
+  --font-heading: var(--font-lora);
+  --font-body: var(--font-nunito-sans);
+}
+
+html {
+  font-size: 106.25%; /* 17px body, and still scales with the browser's font size */
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-nunito-sans), system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-lora), Georgia, serif;
+  line-height: 1.25;
+}
+
+:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}

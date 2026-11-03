@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "status": "draft-pending-legal-review",
+  "lastUpdated": "2026-11-03",
+  "title": { "en": "Privacy policy" },
+  "sections": [
+    {
+      "heading": { "en": "The short version" },
+      "body": {
+        "en": "What you write in Thera-Pea stays on your phone, encrypted. There are no ads and your data is never sold. Crash reports and usage counts are optional, off unless you turn them on, and never include anything you write. You can export or permanently delete everything at any time."
+      }
+    },
+    {
+      "heading": { "en": "Who we are" },
+      "body": {
+        "en": "Thera-Pea is a free self-help app made in India by Dhruv Chheda. For any privacy question or request, email me@dhruvchheda.com."
+      }
+    },
+    {
+      "heading": { "en": "What stays on your phone" },
+      "body": {
+        "en": "Your mood check-ins, journal entries, thought records, safety plan, activities, good things and questionnaire answers are stored only on your phone, in a database encrypted with SQLCipher. The encryption key is kept in your phone's secure keychain. Your preferences (theme, reminders, consent choices, app lock settings) are also stored only on your phone. We cannot see any of this."
+      }
+    },
+    {
+      "heading": { "en": "What leaves your phone" },
+      "body": {
+        "en": "To keep helpline numbers up to date, the app checks for an updated list using Firebase Remote Config, a Google service. This sends a random app installation identifier and your device's IP address to Google, and nothing you have entered. If you turn on crash reports, Firebase Crashlytics receives technical details when the app crashes: device model, operating system, app version and where in the code the error happened, with error messages removed. If you turn on usage counts, Firebase Analytics receives the names of features used and screens opened, such as \"a check-in was completed\", never your moods, scores, tags or writing. Opening the crisis, safety plan, breathing, grounding or questionnaire screens is never recorded. Advertising identifiers are never collected, and Google's ad personalisation is turned off. You can change these choices at any time in Settings."
+      }
+    },
+    {
+      "heading": { "en": "Files you choose to share" },
+      "body": {
+        "en": "If you export your data or create a summary PDF, the file is created on your phone and you choose where to send it. These files are not encrypted, so only share them with people and apps you trust. The app deletes its temporary copy after sharing."
+      }
+    },
+    {
+      "heading": { "en": "Calls and reminders" },
+      "body": {
+        "en": "When you tap a call button, your phone's dialler places the call; Thera-Pea does not record it. Reminders are scheduled on your phone and are never sent through a server."
+      }
+    },
+    {
+      "heading": { "en": "Your rights" },
+      "body": {
+        "en": "Under India's Digital Personal Data Protection Act, 2023, you can access your data (Settings, Export my data), erase it (Settings, Delete everything), and withdraw consent for crash reports and usage counts at any time (Settings, Privacy). Because your entries never reach our servers, deleting them on your phone removes them completely. For any other request or complaint, email me@dhruvchheda.com and we will reply within 30 days."
+      }
+    },
+    {
+      "heading": { "en": "Age" },
+      "body": {
+        "en": "Thera-Pea is intended for adults. If you are under 18, please use it with the consent of a parent or guardian."
+      }
+    },
+    {
+      "heading": { "en": "Security" },
+      "body": {
+        "en": "Your entries are encrypted on your phone. You can also turn on app lock with a PIN or biometrics. No system is perfectly secure, so please keep your phone protected with a passcode."
+      }
+    },
+    {
+      "heading": { "en": "Not a medical service" },
+      "body": {
+        "en": "Thera-Pea is a self-help tool. It is not therapy, not a medical device and not an emergency service. In a crisis in India, call Tele-MANAS on 14416 or emergency services on 112."
+      }
+    },
+    {
+      "heading": { "en": "Changes to this policy" },
+      "body": {
+        "en": "If we change this policy in a way that affects your choices, we will show the change in the app and ask for your consent again before it applies."
+      }
+    }
+  ]
+}
