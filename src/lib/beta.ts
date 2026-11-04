@@ -27,6 +27,6 @@ export function checkBetaLinks(links: BetaLinks): BetaLinks {
 }
 
 export const BETA_LINKS: BetaLinks = checkBetaLinks({
-  androidGroup: null,
+  androidGroup: "https://groups.google.com/g/therapea-beta",
   iosTestFlight: null,
 });
