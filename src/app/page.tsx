@@ -43,7 +43,7 @@ export default function Home() {
           skills that can help, without ads, accounts or a subscription.
         </p>
         <div className="flex flex-wrap gap-3">
-          <ButtonLink href="/download">Download for Android</ButtonLink>
+          <ButtonLink href="/beta">Join the beta</ButtonLink>
           <ButtonLink href="/privacy" variant="secondary">
             How we protect your privacy
           </ButtonLink>

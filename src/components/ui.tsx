@@ -18,7 +18,7 @@ export function ButtonLink({
       ? "bg-primary text-on-primary hover:opacity-90"
       : "border border-primary bg-surface text-text hover:bg-primary-soft";
   const className = `${BUTTON_BASE} ${style}`;
-  // Internal routes use client navigation; mailto, tel and downloads are plain links.
+  // Internal routes use client navigation; mailto, tel and external links are plain links.
   return href.startsWith("/") ? (
     <Link href={href} className={className}>
       {children}

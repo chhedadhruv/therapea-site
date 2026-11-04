@@ -28,8 +28,8 @@ export default function FeedbackPage() {
       <section className="flex flex-col gap-2">
         <h2 className="text-2xl font-semibold">Helpful details to include</h2>
         <ul className="flex list-disc flex-col gap-1 pl-6">
-          <li>Your phone model and Android version</li>
-          <li>The version you downloaded</li>
+          <li>Your phone model, and its Android or iOS version</li>
+          <li>The app version, shown on its Google Play or TestFlight page</li>
           <li>What you expected, and what happened instead</li>
         </ul>
       </section>

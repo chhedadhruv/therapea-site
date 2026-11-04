@@ -4,9 +4,6 @@ export const SITE_TITLE = "Thera-Pea: Mood & Journal";
 export const SITE_DESCRIPTION =
   "A free, private self-help app: track your mood, journal, try calming exercises, and reach a helpline in one tap, even offline.";
 
-/** GitHub repository whose Releases host the signed Android APK. */
-export const RELEASES_REPO = "chhedadhruv/therapea-site";
-
 export const FEEDBACK_EMAIL = "me@dhruvchheda.com";
 export const FEEDBACK_NOTE =
   "Please don't include personal health details. If you're in crisis, call 14416.";
