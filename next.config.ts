@@ -29,6 +29,10 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  // The direct APK download was replaced by the store betas; keep old links working.
+  async redirects() {
+    return [{ source: "/download", destination: "/beta", permanent: true }];
+  },
   async headers() {
     return [
       {
