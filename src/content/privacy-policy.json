@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "draft-pending-legal-review",
-  "lastUpdated": "2026-11-03",
+  "lastUpdated": "2026-11-04",
   "title": { "en": "Privacy policy" },
   "sections": [
     {
@@ -43,7 +43,7 @@
     {
       "heading": { "en": "Your rights" },
       "body": {
-        "en": "Under India's Digital Personal Data Protection Act, 2023, you can access your data (Settings, Export my data), erase it (Settings, Delete everything), and withdraw consent for crash reports and usage counts at any time (Settings, Privacy). Because your entries never reach our servers, deleting them on your phone removes them completely. For any other request or complaint, email me@dhruvchheda.com and we will reply within 30 days."
+        "en": "Under India's Digital Personal Data Protection Act, 2023, you can access your data (Settings, Export my data), erase it (Settings, Delete everything), and withdraw consent for crash reports and usage counts at any time (Settings, Privacy). Because your entries never reach our servers, deleting them on your phone removes them completely. Delete everything also asks Google to delete the app's installation identifier, which Google then removes within 180 days. Crash reports are deleted automatically after 90 days, and usage counts after 2 months. Step-by-step instructions are at therapea.dhruvchheda.com/delete-data. For any other request or complaint, email me@dhruvchheda.com and we will reply within 30 days."
       }
     },
     {

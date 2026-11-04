@@ -12,6 +12,9 @@ export function SiteFooter() {
           <Link className="underline" href="/privacy">
             Privacy policy
           </Link>
+          <Link className="underline" href="/delete-data">
+            Delete your data
+          </Link>
           <Link className="underline" href="/feedback">
             Send feedback
           </Link>
